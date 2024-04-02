@@ -1,0 +1,139 @@
+.header {
+    height: 56px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left section */
+.header .left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+}
+
+.hamburger-menu {
+    height: 32px;
+    margin-right: 20px;
+    padding: 4px;
+}
+
+.hamburger-menu:hover {
+    background-color: rgba(172, 172, 172, 20%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.youtube-logo {
+    height: 100px;
+}
+
+.youtube-logo:hover {
+    cursor: pointer;
+}
+
+/* Middle section */
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box {
+    background-color: rgb(12, 12, 12);
+    outline: none;
+    border: 1px solid rgb(48, 48, 48);
+    height: 40px;
+    width: 500px;
+    padding-left: 15px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    color: white;
+}
+
+.search-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(48, 48, 48);
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    padding: 0px 20px;
+    margin-left: -1px;
+}
+
+.search-icon {
+    height: 30px;
+}
+
+.voice-search-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+
+}
+
+.voice-search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 22px;
+    margin-left: 20px;
+}
+
+.voice-search-icon {
+    height: 30px;
+}
+
+.search-button:hover,
+.voice-search-button:hover {
+    cursor: pointer;
+}
+/* Right Section */
+.header .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 24px;
+}
+
+.create-icon {
+    height: 75px;
+}
+
+
+.notification-icon {
+    height: 25px;
+}
+
+.profile-icon {
+    height: 35px;
+    border-radius: 17.5px;
+    margin-left: 20px;
+}
+
+.create-icon:hover,
+.notification-icon:hover,
+.profile-icon:hover {
+    cursor: pointer;
+}
